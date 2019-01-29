@@ -1,0 +1,77 @@
+body {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ccc;
+    background-image: url('ricefield.jpeg');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    word-spacing: 5px;
+    color: #333;
+}
+
+a:hover {
+    font-size: 20px;
+    color: #000;
+}
+
+a:visited {
+    color: #006400;
+}
+
+blockquote {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 160%;
+    background-color: #eee;
+    border-left: 3px dashed #333;
+    padding-left: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-style: italic;
+}
+
+h1 {
+    background-color: yellow;
+}
+
+.good {
+    font-style: italic;
+    color: green;
+}
+
+.bad {
+    font-style: italic;
+    color: red;
+}
+
+.good, .bad {
+    text-transform: capitalize;
+}
+
+tr:nth-child(even) {
+    background-color: #eee;
+}
+
+tr:nth-child(odd) {
+    background-color: #777;
+}
+
+li img {
+    padding-right: 10px;
+}
+
+.villagers {
+    border-left: 3px solid red;
+}
+
+.farmer {
+    border-left: 3px solid blue;
+}
