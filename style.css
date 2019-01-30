@@ -3,16 +3,24 @@ body {
     margin-left: auto;
     margin-right: auto;
     background-color: #ccc;
-    background-image: url('ricefield.jpeg');
+    background-image: url('field.jpeg');
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Gloria Hallelujah', cursive;
 }
 
 p {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     word-spacing: 5px;
     color: #333;
+}
+
+p:first-of-type {
+    font-weight: bold;
 }
 
 a:hover {
@@ -23,6 +31,29 @@ a:hover {
 a:visited {
     color: #006400;
 }
+
+figure {
+    float: left;
+    margin-right: 50px;
+}
+
+figure img {
+    width: 400px;
+    height: auto;
+}
+
+.notification{
+    background:#FFFFDD;
+    padding:.5rem 1rem;
+    border:3px solid #DDDDCC;
+    width:250px;
+    font-weight:bold;
+    color: #333300;
+    position: absolute;
+    top: 0;
+    left: auto;
+    right: 0;
+  }
 
 blockquote {
     display: block;
@@ -36,6 +67,12 @@ blockquote {
     margin-top: 80px;
     margin-bottom: 80px;
     font-style: italic;
+}
+
+blockquote:first-of-type {
+    position: relative;
+    left: 20%;
+    padding-left: 30px;
 }
 
 h1 {
@@ -54,6 +91,11 @@ h1 {
 
 .good, .bad {
     text-transform: capitalize;
+}
+
+caption {
+    caption-side: bottom;
+    padding: 10px;
 }
 
 tr:nth-child(even) {
